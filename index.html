@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-container">
+        <img src="/logo.svg" class="nav-logo" alt="Logo" />
+        <ul class="nav-links">
+          <li><a href="#" class="nav-link">Product</a></li>
+          <li><a href="#" class="nav-link">Features</a></li>
+          <li><a href="#" class="nav-link">Pricing</a></li>
+          <img src="/dot.svg" alt="Dot" aria-hidden="true" />
+          <li><a href="#" class="nav-link muted">Login</a></li>
+        </ul>
+        <button class="nav-btn" aria-label="Open menu" id="nav-btn">
+          <img src="/icon-hamburger.svg" alt="Hamburger icon" aria-hidden="true" id="hamburger" />
+          <img src="/icon-close.svg" class="hidden" alt="Close icon" aria-hidden="true" id="close" />
+        </button>
+        <ul class="mobile-nav" id="mobile-nav">
+          <li><a href="#" class="nav-link">Product</a></li>
+          <li><a href="#" class="nav-link">Features</a></li>
+          <li><a href="#" class="nav-link">Pricing</a></li>
+          <hr class="divider">
+          <li><a href="#" class="nav-link muted">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main">
+      <div class="container main-container">
+        <img src="/illustration-devices.svg" class="main-img" alt="Devices" />
+        <div class="main-content">
+          <div class="section-top">
+            <div class="badge">New</div>
+            <span class="section-top-text">Monograph Dashboard</span>
+          </div>
+          <h1 class="hero-title">Powerful insights into your team</h1>
+          <p class="hero-text">Project planning and time tracking for agile teams</p>
+          <div class="hero-bottom">
+            <a href="#" class="btn">Schedule a demo</a>
+            <span class="hero-bottom-text">To see a preview</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
