@@ -89,7 +89,7 @@ ul {
   transform: scale(0.9);
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+  transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
 }
 
 .mobile-nav.opened {
@@ -206,7 +206,7 @@ ul {
 
 .hero-bottom-text {
   margin-left: 1.25rem;
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
   color: var(--gray);
 }
 
