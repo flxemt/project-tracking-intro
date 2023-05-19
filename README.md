@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/GrzldjJ.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/project-tracking-intro-component-MjgHIXYCxX](https://www.frontendmentor.io/solutions/project-tracking-intro-component-MjgHIXYCxX)
+- Live Site URL: [https://project-tracking-intro-page.netlify.app/](https://project-tracking-intro-page.netlify.app/)
 
 ## My process
 
